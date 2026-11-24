@@ -2,7 +2,14 @@
 $ErrorActionPreference = "Continue"
 Set-Location $PSScriptRoot
 
-$python = if (Test-Path ".\.venv\Scripts\python.exe") { ".\.venv\Scripts\python.exe" } else { "py" }
+$pythonCmd = Get-Command python -ErrorAction SilentlyContinue
+if (Test-Path ".\.venv\Scripts\python.exe") {
+    $python = ".\.venv\Scripts\python.exe"
+} elseif ($pythonCmd -and $pythonCmd.Source -notlike "*\WindowsApps\*") {
+    $python = $pythonCmd.Source
+} else {
+    $python = "py"
+}
 
 Write-Host "Checking PyInstaller..." -ForegroundColor Cyan
 & $python -c "import importlib.util, sys; sys.exit(0 if importlib.util.find_spec('PyInstaller') else 1)"
