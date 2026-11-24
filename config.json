@@ -1,0 +1,9 @@
+{
+  "DISCORD_CLIENT_ID": "1574836105734266961",
+  "small_image": "artcraft_logo",
+  "small_text": "ArtCraft Suite",
+  "refresh_interval": 3,
+  "privacy_mode": false,
+  "headless": false,
+  "icon_path": "icon.ico"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "process_name": "pdfcraft.exe",
+    "app_name": "PDFCraft",
+    "large_image": "pdfcraft",
+    "large_text": "Editing a PDF",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*PdfCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "PdfCraft",
+      "PDFCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "effectcraft.exe",
+    "app_name": "EffectCraft",
+    "large_image": "effectcraft",
+    "large_text": "Creating visual effects",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*EffectCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "EffectCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "figcraft.exe",
+    "app_name": "FigCraft",
+    "large_image": "figcraft",
+    "large_text": "Designing UI & prototypes",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*FigCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "FigCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "designcraft.exe",
+    "app_name": "DesignCraft",
+    "large_image": "designcraft",
+    "large_text": "Creating a graphic design",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*DesignCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "DesignCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "filmcraft.exe",
+    "app_name": "FilmCraft",
+    "large_image": "filmcraft",
+    "large_text": "Editing a video",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*FilmCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "FilmCraft",
+      "Home",
+      "Start"
+    ],
+    "open_file_mode": "parent_dir",
+    "open_file_extensions": [
+      ".fc",
+      ".filmcraft",
+      ".fcproj",
+      ".mp4",
+      ".mov",
+      ".mkv",
+      ".avi",
+      ".webm",
+      ".m4v",
+      ".wav",
+      ".mp3"
+    ]
+  },
+  {
+    "process_name": "lightcraft.exe",
+    "app_name": "LightCraft",
+    "large_image": "lightcraft",
+    "large_text": "Grading & editing photos",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*LightCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "LightCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "materialcraft.exe",
+    "app_name": "MaterialCraft",
+    "large_image": "materialcraft",
+    "large_text": "Authoring 3D materials",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*MaterialCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "MaterialCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "photocraft.exe",
+    "app_name": "PhotoCraft",
+    "large_image": "photocraft",
+    "large_text": "Editing an image",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*PhotoCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "PhotoCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "soundcraft.exe",
+    "app_name": "SoundCraft",
+    "large_image": "soundcraft",
+    "large_text": "Editing audio",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*SoundCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "SoundCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "texturecraft.exe",
+    "app_name": "TextureCraft",
+    "large_image": "texturecraft",
+    "large_text": "Creating textures",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*TextureCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "TextureCraft",
+      "Home",
+      "Start"
+    ]
+  },
+  {
+    "process_name": "vectorcraft.exe",
+    "app_name": "VectorCraft",
+    "large_image": "vectorcraft",
+    "large_text": "Creating vector graphics",
+    "action_verb": "Editing",
+    "idle_state": "Idling",
+    "title_separator": " — ",
+    "title_regex": "^(?P<filename>.+?)\\s*[-—–|]\\s*VectorCraft(?:\\s.*)?$",
+    "idle_titles": [
+      "VectorCraft",
+      "Home",
+      "Start"
+    ]
+  }
+]
