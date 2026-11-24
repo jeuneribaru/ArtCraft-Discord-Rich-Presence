@@ -92,6 +92,7 @@ Le binaire autonome est généré dans `dist\ArtCraftRPC.exe`.
 ## Arborescence
 
 ```text
+├── .github/workflows/build.yml   # CI Windows : tests + build .exe + Release
 ├── tests/test_artcraft_rpc.py    # Tests unitaires
 ├── apps.json                     # Configuration des applications supportées
 ├── artcraft_rpc.py               # Moteur RPC, détection Windows, system tray & startup
